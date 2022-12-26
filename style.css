@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.drop_link{
+    color: black;
+    margin: 0 15px;
+}
+.drop{
+    position: relative;
+}
+.drop_list{
+    width: 170px;
+    border-top: 2px solid rgb(19, 19, 255); 
+    padding: 10px 0;
+    position: absolute;
+    display: none;
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+
+.drop:hover .drop_list{
+    display: block;
+}
+
+.drop_item{
+    margin: 10px 0;
+
+}
+.drop1_link{
+    color: black;
+    margin: 0 15px;
+}
+.drop1{
+    position: relative;
+}
+.drop1_list{
+    width: 170px;
+    border-top: 2px solid rgb(255, 19, 19); 
+    padding: 10px 0;
+    position: absolute;
+    right: 100%;
+    top: 20%;
+    display: none;
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+
+.drop1:hover .drop1_list{
+    display: block;
+}
+
+.drop1_item{
+    margin: 10px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_only{
+    background-image: url(./Oval.png);
+    background-repeat: no-repeat;
+}
+.nav{
+    padding: 0 10px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_list{
+    margin-left: 700px;
+    display: flex;
+}
+.nav_item{
+    margin: 0 5px;
+    font-weight: bold;
+}
+.nav_link{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: .6s;
+}
+.nav_link:hover{
+    color: red;
+    background-color: #fff;
+    border: 1px solid red;
+}
+
+.main{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_left, .main_right{
+    width: 45%;
+}
+.main_left h2{
+    font-size: 70px;
+}
+.main_left p{
+    margin-top: 30px;
+    line-height: 40px;
+}
+.main_l{
+    margin-top: 50px;
+    display: block;
+    align-items: center;
+}
+.main_link{
+    padding: 20px 30px;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: .6s;
+}
+.main_link:hover{
+    color: red;
+    background-color: #fff;
+    border: 1px solid red;
+}
+.main_logo{
+    margin-top: 80px;
+}
+.list_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item_img{
+    width: 10%;
+}
+.main_logo1{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_logo1 h3{
+    color: rgba(105, 104, 113, 1);
+}
+.main_logo1 .line{
+    border: 1px solid #EAE9F2;
+}
+.main_logo1 h3,.line{
+    width: 50%;
+}
+
+
+
+
+
+
+
+.firstsec{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    background-color: rgba(84, 84, 212, 1);
+    background-image: url("/Oval\ \(1\).png"), url("/white-curve-1.png");
+    background-repeat: no-repeat;
+    background-position: top right, bottom right;
+    height: 90vh;
+}
+.firstsec_left, .firstsec_right{
+    width: 45%;
+}
+
+.fsec_list{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    
+}
+.fsec_item{
+    width: 40%;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    width: 150px;
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+.fsec_item h5{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.fsec_item p{
+    line-height: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.mark{
+    background-color: darkgrey;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    
+}
+
+.firstsec_right h4{
+    font-size: 50px;
+}
+.firstsec_right p{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.firstsec_right a{
+    margin-top: 30px;
+    padding: 15px 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: .6s;   
+}
+.firstsec_right a:hover{
+    color: #fff;
+    background-color:  rgba(84, 84, 212, 1);
+    border: 1px solid #fff;   
+}
+
+
+
+
+.secondsec{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondsec_left,.secondsec_right{
+    width: 45%; 
+}
+.secondsec_left h2{
+    font-size: 53px ;
+}
+.secondsec_left p{
+    margin-top: 30px;
+    line-height: 39px;
+}
+.secondsec_left a{
+    margin-top: 30px;
+    padding: 15px 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;  
+    transition: .6s;   
+}
+.secondsec_left a:hover{
+    color: rgb(255, 0, 0);
+    background-color:  rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);      
+}
+
+
+.thirdsec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(247, 247, 251, 1);
+    background-image: url("./white-curve-2.png");
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.thirdsec_left,.thirdsec_right{
+    width: 45%;
+    margin-top: 80px;
+}
+
+.thirdsec_right h2{
+    font-size: 55px;
+}
+.thirdsec_right .text{
+    margin-top: 30px;
+    line-height: 30px;
+}
+.thsec_list{
+    margin-top: 40px;
+}
+.thsec_item{
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 50px;
+}
+.thicon{
+  background-color: purple;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+
+
+.fourthsec{
+    margin-top: 80px;
+        
+}
+.fourthsec h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.fourth_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.fourth_item{
+    padding: 20px;
+    width: 270px;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+}
+.fourth_item img{
+    width: 15%;
+}
+.f_text {
+    margin-left: 10px;
+}
+.taylor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.taylor_img{
+    display: flex;
+    margin-left: -10px;
+}
+
+.ft{
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+i{
+    color: rgba(84, 84, 212, 1);
+}
+
+.fl{
+    
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+.fivethsec{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(25, 25, 27, 1) ;
+    background-image: url("./Oval\ \(0\).png?rand=1"), url("./white-curve-3.png?rand=2");
+    background-repeat: no-repeat;
+    background-position: top 30px;
+
+}
